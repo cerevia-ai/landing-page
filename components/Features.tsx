@@ -2,14 +2,14 @@
 export default function Features() {
   return (
     <section
-      className="py-16"
-      style={{ backgroundColor: '#B5D9A3', width: '100vw', marginLeft: 'calc(-50vw + 50%)' }}
+      id="features"
+      className="py-16 bg-gray-50 w-full"
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <h2 className="text-3xl font-bold text-center text-white">
+        <h2 className="text-3xl font-bold text-center text-green-900">
           Research Use Only (RUO) Solutions
         </h2>
-        <p className="mt-4 text-lg text-center text-white/90">
+        <p className="mt-4 text-lg text-center text-green-800/90">
           Cerevia products are intended for Research Use Only (RUO). They are
           designed to support hospitals, contract research organizations (CROs),
           and pharmaceutical companies in advancing cardiovascular and
